@@ -14,10 +14,10 @@ In the `dic` folder you can find a dictionary of Even in `.dsl` format. It conta
 
 `scripts` folder contains 2 scripts:
  * `full_text.py` allows for searching within dictionary entries (full text search). To enable it, one should begin the input with `|`.
- ![full_text.png]
+ ![](full_text.png)
 
  * `substring.py` allows one to search lemmas by substring, not just the begining of the word. Do not forget to press Enter to enable this type of search!
- ![substring.png]
+ ![](substring.png)
 
  
 To activate the scripts you should open GoldenDict, go to `Edit > Dictionaries > Programs` (`Правка > Словари > Программы`) and add 2 lines (both HTML type).
