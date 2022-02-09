@@ -1,5 +1,11 @@
 # -*- coding: utf-8 -*-
-import argparse,os,re,sys,gzip
+# -*- coding: utf-8 -*-
+import argparse
+import os
+import re
+import sys
+import gzip
+from unicodedata import normalize
 
 sys.stdout.reconfigure(encoding='utf-8')
 sys.stdin.reconfigure(encoding='utf-8')
@@ -15,6 +21,7 @@ heading_template='<p><b><a href="bword:%s">%s</a></b></p>'
 
 
 def do_search(w, file_name):
+   w = normalize('NFKC', w)
    out = ""
    hits = 0
 
