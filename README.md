@@ -20,7 +20,7 @@ In the `dic` folder you can find a dictionary of Even in `.dsl` format. It conta
  ![](substring.png)
 
  
-To activate the scripts you should open GoldenDict, go to `Edit > Dictionaries > Programs` (`Правка > Словари > Программы`) and add 2 lines (both HTML type) in the field `Comand line` (**not `Name`**).
+To activate the scripts you should open GoldenDict, go to `Edit > Dictionaries > Programs` (`Правка > Словари > Программы`) and add 2 lines (both HTML type) in the field `Command line` (`Командная строка`) (**not `Name` (`Имя`)**).
 
  * `/path/to/your/python "path/to/GoldenDict/scripts/full_text.py" %GDWORD% "path/to/GoldenDict/dic/dictionary.dsl"`
  * `/path/to/your/python "path/to/GoldenDict/scripts/substring.py" %GDWORD% "path/to/GoldenDict/dic/dictionary.dsl"`
