@@ -10,7 +10,7 @@ If you are a Linux user, find a correct version yourself, I believe in you.
 
 After GoldenDict is installed, go to its directory and create two folders `dic` and `scripts` (actually, they can be anywhere on your computer but it is quite nice to keep them nearby the main programme). The next step is to fill the folders with the content of the current repository.
 
-In the `dic` folder you can find a dictionary of Even in `.dsl` format. It contains **13 810** words. Add `dic` folder in GoldenDict: `Edit > Dictionaries > Files > Add > now choose widely` (`Правка > Словари > Файлы > Добавить`).
+In the `dic` folder you can find a dictionary of Even in `.dsl` format. It contains **13 810** words. Add `dic` folder in GoldenDict: `Edit > Dictionaries > Files > Add > now choose wisely` (`Правка > Словари > Файлы > Добавить`).
 
 `scripts` folder contains 2 scripts:
  * `full_text.py` allows for searching within dictionary entries (full text search). To enable it, one should begin the input with `|`.
